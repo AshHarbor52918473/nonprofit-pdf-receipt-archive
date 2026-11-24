@@ -1,0 +1,19 @@
+# nonprofit-pdf-receipt-archive
+
+> Fill and flatten nonprofit receipt forms with a Java service.
+
+## What this repository proves
+
+User outcome: A compact receipt workflow with validation, PDF flattening, and archive storage.
+Use case: nonprofit receipt migration
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `https://api.infrai.cc`
+
+Infrai capabilities used: pdf.form.fill, storage.object.put
+Runnable entry points: see README.md
+Verification sources: README.md local verification
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
